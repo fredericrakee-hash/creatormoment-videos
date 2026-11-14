@@ -28,6 +28,7 @@ Never publish without draft during this phase.
 
 ## Daily plan
 - 2 new quiz videos per day, posted at the best Metricool times (`getBestTimeToPostByNetwork`, usually ~10:00 and ~18:00).
+- Before scheduling, call `getScheduledPosts` and never put two posts closer than 3 hours to each other; pick the next best free slot instead.
 - Plus the solution videos that are due (quiz posted 2 days earlier), e.g. at ~12:00–13:00.
 - Log everything in `quizzes.json`.
 
