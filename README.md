@@ -20,6 +20,8 @@ Raw URL pattern: `https://raw.githubusercontent.com/fredericrakee-hash/creatormo
 - Captions: post text in English with the question + options A–D + "answer in 2 days" + ~10 hashtags.
 - Mark posts `isAiGenerated: true` (Instagram requires it).
 - Rotate the position of the correct answer (A/B/C/D) – never the same letter several times in a row.
+- **Never give the answer away**: the narration, captions, on-screen text and post text must not use any word of the
+  correct option (e.g. say "metal panels", not "grids", when the answer is "Grid fins").
 - Facts must be correct. Double-check every claim with a web search before rendering.
 
 ## Review rule (first week, until the owner says otherwise)

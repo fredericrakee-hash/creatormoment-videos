@@ -14,13 +14,13 @@
  ],
  "correct": 2,
  "answer_full": "Grid fins",
- "recap": "A rocket booster falling back from space, with four strange metal grids at the top.",
+ "recap": "A rocket booster falling back from space, with four strange metal panels at the top.",
  "explain": [
   "Grid fins fold flat during launch and only unfold on the way back down.",
   "By twisting, they steer the booster through the atmosphere, all by computer.",
   "On the Falcon 9 they are cast from titanium, so they survive the heat of reentry."
  ],
- "video": "videos/q002-gridfins-v2.mp4",
+ "video": "videos/q002-gridfins-v3.mp4",
  "clip_video": "videos/q002-clean.mp4",
  "clip": [
   0.0,

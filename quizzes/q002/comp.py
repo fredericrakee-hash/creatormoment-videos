@@ -28,7 +28,7 @@ def ease(x):
     x = max(0, min(1, x)); return x*x*(3-2*x)
 
 SUBS = [(0.3, 7.9, "Back from space. Coming down tail first."),
-        (8.2, 13.2, "Four metal grids unfold – glowing from the heat."),
+        (8.2, 13.2, "Four metal panels unfold – glowing from the heat."),
         (13.5, 18.4, "They steer the booster. No pilot on board."),
         (19.4, 22.7, "Seconds before impact, the engine fires again."),
         (23.0, 26.9, "Legs out. Touchdown – on a ship, mid-ocean.")]
@@ -149,7 +149,7 @@ def quiz_frame(i):
     if qa > 0:
         lay = Image.new("RGBA", (W, H), (0, 0, 0, 0))
         shadow_text(lay, (W//2, 330), "WHAT ARE THESE", F_Q, anchor="ma")
-        shadow_text(lay, (W//2, 420), "GRIDS CALLED?", F_Q, fill=(255, 200, 90), anchor="ma")
+        shadow_text(lay, (W//2, 420), "PANELS CALLED?", F_Q, fill=(255, 200, 90), anchor="ma")
         lay.putalpha(lay.split()[3].point(lambda v: int(v*qa))); fr.alpha_composite(lay)
     for k, (L, txt, ts) in enumerate(OPTS):
         p = ease((t-ts+0.05)/0.35)
