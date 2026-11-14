@@ -28,7 +28,9 @@ Raw URL pattern: `https://raw.githubusercontent.com/fredericrakee-hash/creatormo
 Posts are scheduled **directly (`draft: false`)** – no drafts, no manual approval. The owner reviews afterwards.
 
 ## Daily plan
-- 2 new quiz videos per day, posted at the best Metricool times (`getBestTimeToPostByNetwork`, usually ~10:00 and ~18:00).
+- **3 posts per day** in the slots ~10:00, ~14:00 and ~18:00 (adjust a little to the best Metricool times). Quizzes and
+  solution videos share these slots. Solutions are due 2 days after their quiz (same slot if free). Never more than 3 posts
+  on one day – if a day is full, use the next day with a free slot.
 - Before scheduling, call `getScheduledPosts` and never put two posts closer than 3 hours to each other; pick the next best free slot instead.
 - Plus the solution videos that are due (quiz posted 2 days earlier), e.g. at ~12:00–13:00.
 - Log everything in `quizzes.json`.
