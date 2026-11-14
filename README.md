@@ -24,9 +24,8 @@ Raw URL pattern: `https://raw.githubusercontent.com/fredericrakee-hash/creatormo
   correct option (e.g. say "metal panels", not "grids", when the answer is "Grid fins").
 - Facts must be correct. Double-check every claim with a web search before rendering.
 
-## Review rule (first week, until the owner says otherwise)
-Every post is created in Metricool as **draft (`draft: true`)** – the owner reviews and un-drafts it himself.
-Never publish without draft during this phase.
+## Publishing rule (changed by the owner on 2026-11-14)
+Posts are scheduled **directly (`draft: false`)** – no drafts, no manual approval. The owner reviews afterwards.
 
 ## Daily plan
 - 2 new quiz videos per day, posted at the best Metricool times (`getBestTimeToPostByNetwork`, usually ~10:00 and ~18:00).
@@ -59,7 +58,7 @@ Never publish without draft during this phase.
 5. Also save a **clean** (graded, no overlays) 10–14 s action clip as `videos/qNNN-clean.mp4` (see q001 for how)
    – the solution video reuses it.
 6. Write `quizzes/qNNN/spec.json` (see q001) and add the entry to `quizzes.json`.
-7. git add/commit/push, then `createScheduledPost` with the raw URL (draft: true), REEL, isAiGenerated true.
+7. git add/commit/push, then `createScheduledPost` with the raw URL (draft: false), REEL, isAiGenerated true.
 
 ## Solution video
-`python3 pipeline/answer.py quizzes/qNNN/spec.json videos/qNNN-answer.mp4` (~5 min), push, schedule as draft.
+`python3 pipeline/answer.py quizzes/qNNN/spec.json videos/qNNN-answer.mp4` (~5 min), push, schedule it (draft: false).
