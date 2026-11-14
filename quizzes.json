@@ -1,0 +1,12 @@
+[
+ {
+  "id": "q001",
+  "num": 1,
+  "topic": "Aviation - TCAS collision avoidance",
+  "correct": "B",
+  "video": "videos/q001-tcas-v2.mp4",
+  "quiz_post": {"date": "2026-11-14T18:00:00+01:00", "metricool_uuid": "-1537475213522418361", "status": "draft"},
+  "answer_video": "videos/q001-answer.mp4",
+  "answer_post": {"date": "2026-11-16T18:00:00+01:00", "metricool_uuid": null, "status": "pending"}
+ }
+]

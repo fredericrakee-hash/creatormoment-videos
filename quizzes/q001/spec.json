@@ -1,0 +1,30 @@
+{
+ "id": "q001",
+ "num": 1,
+ "topic": "Aviation - TCAS (Traffic Collision Avoidance System)",
+ "question": [
+  "WHAT IS THIS",
+  "SYSTEM CALLED?"
+ ],
+ "options": [
+  "GPWS",
+  "TCAS",
+  "ILS",
+  "ATIS"
+ ],
+ "correct": 1,
+ "answer_full": "TCAS, the Traffic Collision Avoidance System",
+ "recap": "Two planes, same altitude, heading straight for each other.",
+ "explain": [
+  "Both planes' TCAS boxes talk to each other through their transponders.",
+  "They agree on opposite moves, so one crew gets climb, the other descend.",
+  "Pilots must follow it, even if air traffic control says something different."
+ ],
+ "video": "videos/q001-tcas-v2.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null,
+ "clip_video": "videos/q001-clean.mp4"
+}
