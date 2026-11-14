@@ -43,18 +43,22 @@ def shadow_text(base, xy, txt, font, fill=(255, 255, 255), blur=6, sh=170, ancho
 
 _cache = {}
 CUTF = int(CUT*FPS)
+def _src(i):
+    """Real rendered frame if it exists, otherwise the motion-interpolated frame."""
+    p = f"{BASE}/frames/f{i:04d}.png"
+    if os.path.exists(p): return p
+    if i < CUTF: q = f"{BASE}/interp/A/{i+1:05d}.jpg"
+    else: q = f"{BASE}/interp/B/{i-CUTF+1:05d}.jpg"
+    if os.path.exists(q): return q
+    k = i - (i % 2)
+    while k >= 0 and not os.path.exists(f"{BASE}/frames/f{k:04d}.png"): k -= 2
+    return f"{BASE}/frames/f{max(k,0):04d}.png"
 def frame3d(i):
-    def load(k):
-        k = max(0, min(k, int(END3D*FPS)-1)); k -= k % 2
-        while k >= 0 and not os.path.exists(f"{BASE}/frames/f{k:04d}.png"): k -= 2
-        if k < 0: return Image.new("RGB", (W, H), (40, 60, 90))
-        if k not in _cache:
-            if len(_cache) > 4: _cache.clear()
-            _cache[k] = grade(Image.open(f"{BASE}/frames/f{k:04d}.png"), k//2, horizon_y=5000)
-        return _cache[k]
-    if i % 2 == 0: return load(i)
-    if i+1 >= CUTF > i: return load(i-1)          # never blend across the cut
-    return Image.blend(load(i-1), load(i+1), 0.5)
+    i = max(0, min(i, int(END3D*FPS)-1))
+    if i not in _cache:
+        if len(_cache) > 4: _cache.clear()
+        _cache[i] = grade(Image.open(_src(i)), i, horizon_y=5000)
+    return _cache[i]
 
 def brand(fr):
     d = ImageDraw.Draw(fr)

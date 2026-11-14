@@ -2,8 +2,16 @@
  "id": "q002",
  "num": 2,
  "topic": "Space - Falcon 9 booster grid fins",
- "question": ["WHAT ARE THESE", "GRIDS CALLED?"],
- "options": ["Canards", "Air brakes", "Grid fins", "Ailerons"],
+ "question": [
+  "WHAT ARE THESE",
+  "GRIDS CALLED?"
+ ],
+ "options": [
+  "Canards",
+  "Air brakes",
+  "Grid fins",
+  "Ailerons"
+ ],
  "correct": 2,
  "answer_full": "Grid fins",
  "recap": "A rocket booster falling back from space, with four strange metal grids at the top.",
@@ -12,8 +20,11 @@
   "By twisting, they steer the booster through the atmosphere, all by computer.",
   "On the Falcon 9 they are cast from titanium, so they survive the heat of reentry."
  ],
- "video": "videos/q002-gridfins.mp4",
+ "video": "videos/q002-gridfins-v2.mp4",
  "clip_video": "videos/q002-clean.mp4",
- "clip": [0.0, 12.0],
+ "clip": [
+  0.0,
+  12.0
+ ],
  "followup": null
 }

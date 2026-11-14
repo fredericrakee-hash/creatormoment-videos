@@ -42,6 +42,12 @@ Never publish without draft during this phase.
      and LOOK at the frames before the long render. Full render:
      `PCT=50 SPP=10 STEP=2 python3 scene.py -- frames` (renders every 2nd frame, ~7–9 s each → ~50–60 min).
      Run it in the background and poll; keep the turn alive (sleep ≤ 10 min per call) until done.
+   **Smooth 30 fps (the owner noticed judder from simple frame blending):** export each shot's rendered
+   15 fps frames (ungraded, scaled to 1080x1920) to a clip, run
+   `minterpolate=fps=30:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1`, extract to `interp/<shot>/%05d.jpg`,
+   and additionally render the REAL odd frames (`STEP=1 IFROM=.. ITO=..`) for fast-motion moments (parts
+   unfolding, legs deploying) where interpolation ghosts. The compositor prefers real frames, then interpolated ones
+   (see quizzes/q002/comp.py `_src`). Never interpolate across a hard cut.
      `python3 scene.py -- meta` writes screen positions for overlays.
    - `comp.py` – overlays (title, captions, data tags/HUD, quiz card with options appearing in sync with `oA–oD`
      start times) – set `DUR`, `END3D`, `SUBS`, `OPTS`.

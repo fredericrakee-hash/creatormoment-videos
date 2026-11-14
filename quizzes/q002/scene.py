@@ -427,7 +427,7 @@ elif mode == "meta":
 else:
     os.makedirs(f"{OUT}/frames", exist_ok=True)
     step = int(os.environ.get("STEP", "2"))
-    for i in range(int(t0*FPS), int(t1*FPS), step):
+    for i in range(int(os.environ.get('IFROM', int(t0*FPS))), int(os.environ.get('ITO', int(t1*FPS))), step):
         out = f"{OUT}/frames/f{i:04d}.png"
         if os.path.exists(out): continue
         pose(i/FPS); bpy.context.view_layer.update()
