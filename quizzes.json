@@ -6,15 +6,15 @@
   "correct": "B",
   "video": "videos/q001-tcas-v3.mp4",
   "quiz_post": {
-   "date": "2026-11-15T18:00:00+01:00",
+   "date": "2026-11-15T10:00:00+01:00",
    "metricool_uuid": "-1537475213522418361",
-   "status": "draft"
+   "status": "scheduled"
   },
   "answer_video": "videos/q001-answer.mp4",
   "answer_post": {
-   "date": "2026-11-17T18:00:00+01:00",
+   "date": "2026-11-17T10:00:00+01:00",
    "metricool_uuid": "-622706779799337149",
-   "status": "draft"
+   "status": "scheduled"
   }
  },
  {
@@ -24,13 +24,31 @@
   "correct": "C",
   "video": "videos/q002-gridfins-v3.mp4",
   "quiz_post": {
-   "date": "2026-11-15T10:00:00+01:00",
+   "date": "2026-11-15T18:00:00+01:00",
    "metricool_uuid": "7081554805962065191",
-   "status": "draft"
+   "status": "scheduled"
   },
   "answer_video": "videos/q002-answer.mp4",
   "answer_post": {
-   "date": "2026-11-17T10:00:00+01:00",
+   "date": "2026-11-17T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q003",
+  "num": 3,
+  "topic": "Ships - bulbous bow (IN PROGRESS in a manual session - do not use this topic, do not touch this entry)",
+  "correct": "A",
+  "video": "videos/q003-bulbousbow.mp4",
+  "quiz_post": {
+   "date": "2026-11-16T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q003-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-18T18:00:00+01:00",
    "metricool_uuid": null,
    "status": "pending"
   }
