@@ -70,5 +70,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q005",
+  "num": 5,
+  "topic": "Trains - conical wheels (self-steering wheelset)",
+  "correct": "C",
+  "video": "videos/q005-conicalwheels.mp4",
+  "quiz_post": {
+   "date": "2026-11-16T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q005-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-18T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]

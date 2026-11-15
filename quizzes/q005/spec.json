@@ -1,0 +1,19 @@
+{
+ "id": "q005",
+ "num": 5,
+ "topic": "Trains - conical wheels",
+ "question": ["WHAT MAKES", "THIS WORK?"],
+ "options": ["Hidden differential", "Wheels slipping", "Conical wheels", "Banked track"],
+ "correct": 2,
+ "answer_full": "Conical wheels",
+ "recap": "A train in a curve: both wheels sit on one solid axle and always turn at the same speed.",
+ "explain": [
+  "Train wheels are not flat – they are slightly cone-shaped, wider on the inside next to the flange.",
+  "In a curve the axle shifts outward, so the outer wheel rolls on a bigger diameter and covers more distance per turn than the inner wheel.",
+  "That steers the train around the bend by itself. Most wheels have a taper of about 1 in 20 – the flanges are only a last line of defence."
+ ],
+ "video": "videos/q005-conicalwheels.mp4",
+ "clip_video": "videos/q005-clean.mp4",
+ "clip": [14.0, 26.0],
+ "followup": null
+}
