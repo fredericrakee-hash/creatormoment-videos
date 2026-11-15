@@ -17,7 +17,7 @@ Raw URL pattern: `https://raw.githubusercontent.com/fredericrakee-hash/creatormo
   (cockpit displays, radar data tags, etc.). No bright cartoon boxes, no stars, no outlined comic text.
 - Voice: kokoro-onnx **`am_michael`**, natural speed (1.0), lightly energetic text. The owner disliked
   am_puck / am_fenrir / af_bella (too annoying). Alert/robot voices: `am_onyx` with radio filter.
-- Captions: post text in English with the question + options A–D + "answer in 2 days" + ~10 hashtags.
+- Captions: post text in English with the question + options A–D + "solution tomorrow" + ~10 hashtags.
 - Mark posts `isAiGenerated: true` (Instagram requires it).
 - Rotate the position of the correct answer (A/B/C/D) – never the same letter several times in a row.
 - **Never give the answer away**: the narration, captions, on-screen text and post text must not use any word of the
@@ -27,13 +27,18 @@ Raw URL pattern: `https://raw.githubusercontent.com/fredericrakee-hash/creatormo
 ## Publishing rule (changed by the owner on 2026-11-14)
 Posts are scheduled **directly (`draft: false`)** – no drafts, no manual approval. The owner reviews afterwards.
 
-## Daily plan
-- **3 posts per day** in the slots ~10:00, ~14:00 and ~18:00 (adjust a little to the best Metricool times). Quizzes and
-  solution videos share these slots. Solutions are due 2 days after their quiz (same slot if free). Never more than 3 posts
-  on one day – if a day is full, use the next day with a free slot.
-- Before scheduling, call `getScheduledPosts` and never put two posts closer than 3 hours to each other; pick the next best free slot instead.
-- Plus the solution videos that are due (quiz posted 2 days earlier), e.g. at ~12:00–13:00.
-- Log everything in `quizzes.json`.
+## Daily plan (changed by the owner on 2026-11-16)
+- **Exactly 3 posts per day** in the slots ~10:00, ~14:00, ~18:00.
+- **Solutions come the NEXT DAY** (not after 2 days). New videos and captions must say
+  "The solution comes tomorrow" / "Solution tomorrow" (q001–q006 still say "in two days" – that's fine, they are answered as planned).
+- Rule: solutions(day D) = quizzes(day D-1); new quizzes(day D) = 3 - solutions(day D).
+  This automatically alternates 2 quizzes + 1 solution / 1 quiz + 2 solutions.
+- Transition: Tue 17.11 = solutions #1-#3, Wed 18.11 = solutions #4-#6, **Thu 19.11 = 2 quizzes only (q007, q008)**,
+  Fri 20.11 = 2 solutions (q007, q008) + 1 quiz, Sat = 1 solution + 2 quizzes, and so on.
+- Put the solutions in the earlier slots and quizzes in the later ones when possible (e.g. 10:00 + 14:00 solutions,
+  18:00 quiz), but any order is fine. Never more than 3 posts on a day.
+- Log everything in `quizzes.json`. Entries with status "in_progress" are being built by another session: never touch them,
+  never reuse their topic or slot.
 
 ## How to build a new quiz (cloud session, 2 CPU cores, no GPU)
 1. `bash pipeline/setup.sh`  (installs bpy, kokoro-onnx, downloads voice model; ~3 min)

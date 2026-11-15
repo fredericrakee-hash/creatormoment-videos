@@ -106,5 +106,41 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q007",
+  "num": 7,
+  "topic": "Space - why the ISS doesn't fall down (IN PROGRESS in a manual session - do not use this topic, do not touch this entry)",
+  "correct": null,
+  "video": "videos/q007.mp4",
+  "quiz_post": {
+   "date": "2026-11-19T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q007-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-20T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q008",
+  "num": 8,
+  "topic": "Aviation - why airplane windows are round (IN PROGRESS in a manual session - do not use this topic, do not touch this entry)",
+  "correct": null,
+  "video": "videos/q008.mp4",
+  "quiz_post": {
+   "date": "2026-11-19T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q008-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-20T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
