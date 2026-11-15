@@ -38,13 +38,13 @@
  {
   "id": "q003",
   "num": 3,
-  "topic": "Ships - bulbous bow (IN PROGRESS in a manual session - do not use this topic, do not touch this entry)",
+  "topic": "Ships - bulbous bow",
   "correct": "A",
   "video": "videos/q003-bulbousbow.mp4",
   "quiz_post": {
    "date": "2026-11-15T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "-8625640429812822243",
+   "status": "scheduled"
   },
   "answer_video": "videos/q003-answer.mp4",
   "answer_post": {
