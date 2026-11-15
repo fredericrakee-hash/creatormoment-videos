@@ -1,0 +1,19 @@
+{
+ "id": "q006",
+ "num": 6,
+ "topic": "Military tech - tank gun stabilizer",
+ "question": ["WHAT IS THIS", "SYSTEM CALLED?"],
+ "options": ["Active suspension", "Gun stabilizer", "Muzzle brake", "Laser rangefinder"],
+ "correct": 1,
+ "answer_full": "Gun stabilizer",
+ "recap": "A tank racing over rough ground while its barrel stays locked on the target.",
+ "explain": [
+  "Gyroscopic sensors measure every pitch and roll of the hull.",
+  "Hydraulic or electric drives instantly move the turret and barrel the opposite way, so the aim never drifts.",
+  "The first production tank with one was the American M3 Lee in World War Two. Modern tanks hold their aim in both directions and can fire accurately on the move."
+ ],
+ "video": "videos/q006-tankstabilizer.mp4",
+ "clip_video": "videos/q006-clean.mp4",
+ "clip": [8.0, 20.0],
+ "followup": null
+}

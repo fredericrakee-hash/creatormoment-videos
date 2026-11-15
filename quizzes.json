@@ -88,5 +88,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q006",
+  "num": 6,
+  "topic": "Military tech - tank gun stabilizer",
+  "correct": "B",
+  "video": "videos/q006-tankstabilizer.mp4",
+  "quiz_post": {
+   "date": "2026-11-16T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q006-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-18T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
