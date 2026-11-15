@@ -1,0 +1,19 @@
+{
+ "id": "q003",
+ "num": 3,
+ "topic": "Ships - bulbous bow",
+ "question": ["WHAT IS THIS UNDERWATER", "NOSE CALLED?"],
+ "options": ["Bulbous bow", "Keel", "Skeg", "Ram"],
+ "correct": 0,
+ "answer_full": "Bulbous bow",
+ "recap": "A giant container ship with a strange nose hidden below the waterline.",
+ "explain": [
+  "A normal ship pushes up a big wave at the front, and that wastes energy.",
+  "The bulbous bow makes its own wave, which cancels out much of that wave.",
+  "Large ships with one are around twelve to fifteen percent more fuel efficient. But it only works best at the speed it was designed for."
+ ],
+ "video": "videos/q003-bulbousbow.mp4",
+ "clip_video": "videos/q003-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
