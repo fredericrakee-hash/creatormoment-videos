@@ -1,0 +1,19 @@
+{
+ "id": "q004",
+ "num": 4,
+ "topic": "Aviation - fuel dumping",
+ "question": ["WHY DO PILOTS", "DUMP TONS OF FUEL?"],
+ "options": ["To cool down the engines", "To put out a fire", "To mark their position for rescuers", "To be light enough to land safely"],
+ "correct": 3,
+ "answer_full": "To be light enough to land safely",
+ "recap": "A jumbo jet turning back right after takeoff, spraying fuel from both wings.",
+ "explain": [
+  "A big jet may take off heavier than it is allowed to land.",
+  "Landing gear and airframe can't absorb a touchdown with full tanks, so the crew gets rid of weight.",
+  "At altitude, the fuel breaks into tiny droplets and evaporates before it reaches the ground."
+ ],
+ "video": "videos/q004-fueldump.mp4",
+ "clip_video": "videos/q004-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
