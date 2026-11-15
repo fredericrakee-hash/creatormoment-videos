@@ -56,13 +56,13 @@
  {
   "id": "q004",
   "num": 4,
-  "topic": "Aviation - fuel dumping (IN PROGRESS in a manual session - do not use this topic, do not touch this entry)",
+  "topic": "Aviation - fuel dumping",
   "correct": "D",
   "video": "videos/q004-fueldump.mp4",
   "quiz_post": {
    "date": "2026-11-16T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "6243699945437086687",
+   "status": "scheduled"
   },
   "answer_video": "videos/q004-answer.mp4",
   "answer_post": {
