@@ -151,8 +151,8 @@
   "video": "videos/q009-carrierlanding.mp4",
   "quiz_post": {
    "date": "2026-11-20T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "-7832916675644340399",
+   "status": "scheduled"
   },
   "answer_video": "videos/q009-answer.mp4",
   "answer_post": {
