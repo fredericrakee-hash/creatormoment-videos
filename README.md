@@ -69,3 +69,9 @@ Posts are scheduled **directly (`draft: false`)** – no drafts, no manual appro
 
 ## Solution video
 `python3 pipeline/answer.py quizzes/qNNN/spec.json videos/qNNN-answer.mp4` (~5 min), push, schedule it (draft: false).
+
+## Story votes (account shortsfilm) – set up 2026-11-16
+- GitHub Action `.github/workflows/votes.yml` runs hourly, reads comments via the Instagram API (secret `IG_TOKEN`) and writes only counts to `votes/results/<media_id>.json` and `votes/results/latest.json` (field `winner`, `tie`).
+- A post takes part when its caption has a line `VOTE: OPTION1 / OPTION2` (2-4 options). Comments count if they name exactly one option (word anywhere, or letter A/B/... in a short comment). One vote per person, latest comment wins.
+- Tie: Claude decides and the next episode says "It was a tie, so fate decided."
+- The token is extended automatically every Monday. If the Action fails, tell the owner.
