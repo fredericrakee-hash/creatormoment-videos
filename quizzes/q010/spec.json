@@ -1,0 +1,19 @@
+{
+ "id": "q010",
+ "num": 10,
+ "topic": "Everyday engineering - bridge expansion joint (finger joint)",
+ "question": ["WHAT IS THIS", "METAL COMB FOR?"],
+ "options": ["Room to grow and shrink", "Draining rain off the road", "Slowing the cars down", "Weighing the trucks"],
+ "correct": 0,
+ "answer_full": "Room to grow and shrink – it's an expansion joint",
+ "recap": "Two rows of steel teeth on a huge bridge, pushing together and pulling apart over the months.",
+ "explain": [
+  "Steel and concrete get longer when they warm up and shorter when they cool down.",
+  "A one kilometer long steel bridge can change its length by up to half a meter between a freezing winter night and a hot summer day.",
+  "This finger joint lets the deck slide in and out freely. Without it, the bridge would crack or buckle."
+ ],
+ "video": "videos/q010-expansionjoint.mp4",
+ "clip_video": "videos/q010-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}

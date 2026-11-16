@@ -160,5 +160,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q010",
+  "num": 10,
+  "topic": "Everyday engineering - bridge expansion joint (finger joint)",
+  "correct": "A",
+  "video": "videos/q010-expansionjoint.mp4",
+  "quiz_post": {
+   "date": "2026-11-21T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q010-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-22T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
