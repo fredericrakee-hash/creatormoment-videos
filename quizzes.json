@@ -142,5 +142,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q009",
+  "num": 9,
+  "topic": "Military aviation - full throttle on carrier landing (bolter)",
+  "correct": "D",
+  "video": "videos/q009-carrierlanding.mp4",
+  "quiz_post": {
+   "date": "2026-11-20T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q009-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-21T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]

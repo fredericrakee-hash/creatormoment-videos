@@ -1,0 +1,19 @@
+{
+ "id": "q009",
+ "num": 9,
+ "topic": "Military aviation - full throttle on carrier landing (bolter)",
+ "question": ["WHY FULL POWER", "WHILE LANDING?"],
+ "options": ["To pull the cable tighter", "To keep the engines from dying", "To steer straight on the deck", "In case it has to take off again"],
+ "correct": 3,
+ "answer_full": "In case it has to take off again",
+ "recap": "A fighter jet lands on an aircraft carrier, and the pilot pushes the throttle to full power the moment the wheels hit the deck.",
+ "explain": [
+  "Sometimes the tailhook bounces over the cables, or the jet touches down too far along the deck. Pilots call that a bolter.",
+  "At idle power, the jet would roll off the end of the deck and drop toward the sea.",
+  "At full power it simply flies off, circles around and tries again. If the hook does catch a cable, the pilot pulls the throttle back to idle."
+ ],
+ "video": "videos/q009-carrierlanding.mp4",
+ "clip_video": "videos/q009-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
