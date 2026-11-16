@@ -57,6 +57,8 @@ Posts are scheduled **directly (`draft: false`)** – no drafts, no manual appro
    unfolding, legs deploying) where interpolation ghosts. The compositor prefers real frames, then interpolated ones
    (see quizzes/q002/comp.py `_src`). Never interpolate across a hard cut.
      `python3 scene.py -- meta` writes screen positions for overlays.
+     Helper: `python3 pipeline/interp.py <qdir> "A:0:234,B:234:537,..."` (shot:first_frame:end_frame) builds `interp/<shot>/`
+     from the even frames at render resolution (fast; the grade upscales). If a shot starts on an odd frame, copy the next even frame to it first.
    - `comp.py` – overlays (title, captions, data tags/HUD, quiz card with options appearing in sync with `oA–oD`
      start times) – set `DUR`, `END3D`, `SUBS`, `OPTS`.
    - `mix.py` – ambience, risers/hits, alerts, quiz bed, narration placement (keep the times in sync with comp.py).

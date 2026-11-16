@@ -169,8 +169,8 @@
   "video": "videos/q010-expansionjoint.mp4",
   "quiz_post": {
    "date": "2026-11-21T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "4154177495354985890",
+   "status": "scheduled"
   },
   "answer_video": "videos/q010-answer.mp4",
   "answer_post": {
