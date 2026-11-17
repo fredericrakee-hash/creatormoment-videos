@@ -1,0 +1,19 @@
+{
+ "id": "q011",
+ "num": 11,
+ "topic": "Space - launch pad water deluge (sound suppression system)",
+ "question": ["WHY FLOOD THE", "LAUNCH PAD?"],
+ "options": ["To cool down the engines", "To add extra thrust", "To soak up the noise", "To wash the pad clean"],
+ "correct": 2,
+ "answer_full": "To soak up the noise – it's a sound suppression system",
+ "recap": "Seconds before liftoff, huge nozzles flood the launch pad with water.",
+ "explain": [
+  "At liftoff a heavy rocket like NASA's SLS makes about 176 decibels – far louder than a jetliner.",
+  "Those pressure waves bounce off the pad and shake the rocket, its payload and the launch tower. The water soaks up that energy and turns the roar down.",
+  "And the giant white clouds at liftoff? They are mostly that water, turned into steam."
+ ],
+ "video": "videos/q011-launchpadwater.mp4",
+ "clip_video": "videos/q011-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
