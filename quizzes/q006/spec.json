@@ -14,6 +14,6 @@
  ],
  "video": "videos/q006-tankstabilizer.mp4",
  "clip_video": "videos/q006-clean.mp4",
- "clip": [8.0, 20.0],
+ "clip": [0.0, 12.0],
  "followup": null
 }
