@@ -67,8 +67,8 @@
   "answer_video": "videos/q004-answer.mp4",
   "answer_post": {
    "date": "2026-11-18T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "4534123189331774498",
+   "status": "scheduled"
   }
  },
  {
@@ -85,8 +85,8 @@
   "answer_video": "videos/q005-answer.mp4",
   "answer_post": {
    "date": "2026-11-18T10:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "-8896257479531672991",
+   "status": "scheduled"
   }
  },
  {
@@ -103,8 +103,8 @@
   "answer_video": "videos/q006-answer.mp4",
   "answer_post": {
    "date": "2026-11-18T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "6942187325595272725",
+   "status": "scheduled"
   }
  },
  {
