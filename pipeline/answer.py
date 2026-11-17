@@ -97,6 +97,10 @@ def main(spec_path, out):
             shadow_text(fr, (W//2, 300), spec["question"][0], F_Q, anchor="ma")
             shadow_text(fr, (W//2, 385), spec["question"][1], F_Q, fill=(255, 200, 90), anchor="ma")
             rv = ease((tt-tl["reveal"])/0.35)
+            if "_fopt" not in spec:
+                dd = ImageDraw.Draw(Image.new("RGB", (8, 8))); sz = 62
+                while sz > 34 and max(dd.textlength(o + "  ✓", font=F("InterDisplay-Black.otf", sz)) for o in spec["options"]) > W-90-170-40: sz -= 2
+                spec["_fopt"] = F("InterDisplay-Black.otf", sz)
             for j, opt in enumerate(spec["options"]):
                 y = 560 + j*190; x0, x1 = 90, W-90
                 ok = j == spec["correct"]
@@ -108,7 +112,7 @@ def main(spec_path, out):
                     ld.rounded_rectangle([x0, y, x1, y+150], radius=28, fill=(255, 255, 255, int(30*fade)), outline=(255, 255, 255, int(110*fade)), width=2)
                 ld.ellipse([x0+24, y+21, x0+132, y+129], fill=(255, 255, 255, int(235*fade)))
                 ld.text((x0+78, y+75), "ABCD"[j], font=F_LET, fill=(8, 10, 16, int(255*fade)), anchor="mm")
-                ld.text((x0+170, y+75), opt + ("  ✓" if ok and rv > 0.5 else ""), font=F_OPT, fill=(255, 255, 255, int(255*fade)), anchor="lm")
+                ld.text((x0+170, y+75), opt + ("  ✓" if ok and rv > 0.5 else ""), font=spec["_fopt"], fill=(255, 255, 255, int(255*fade)), anchor="lm")
                 fr.alpha_composite(lay)
             cur = None
             for ts, s in exp_txt.items():
