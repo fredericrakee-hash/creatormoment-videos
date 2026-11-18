@@ -214,5 +214,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q013",
+  "num": 13,
+  "topic": "Trains - zigzag overhead contact wire (stagger)",
+  "correct": "D",
+  "video": "videos/q013-zigzagwire.mp4",
+  "quiz_post": {
+   "date": "2026-11-23T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q013-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-24T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
