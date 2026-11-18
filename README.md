@@ -57,6 +57,8 @@ Posts are scheduled **directly (`draft: false`)** – no drafts, no manual appro
    unfolding, legs deploying) where interpolation ghosts. The compositor prefers real frames, then interpolated ones
    (see quizzes/q002/comp.py `_src`). Never interpolate across a hard cut.
      `python3 scene.py -- meta` writes screen positions for overlays.
+     Slow scenes (space etc.) can be rendered with `STEP=3` and interpolated 10→30 fps with `pipeline/interp3.py` (same args) – saves ~1/3 render time.
+     Subtitles can be timed automatically from the voice lines with `pipeline/subs.py` (`make_subs`, see quizzes/q013/comp.py).
      Helper: `python3 pipeline/interp.py <qdir> "A:0:234,B:234:537,..."` (shot:first_frame:end_frame) builds `interp/<shot>/`
      from the even frames at render resolution (fast; the grade upscales). If a shot starts on an odd frame, copy the next even frame to it first.
    - `comp.py` – overlays (title, captions, data tags/HUD, quiz card with options appearing in sync with `oA–oD`

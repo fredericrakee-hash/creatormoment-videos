@@ -1,0 +1,19 @@
+{
+ "id": "q014",
+ "num": 14,
+ "topic": "Space - satellite gold foil (multi-layer insulation)",
+ "question": ["WHY ARE SATELLITES", "WRAPPED IN FOIL?"],
+ "options": ["To control its temperature", "To block radio interference", "To be easier to spot from Earth", "To boost its solar power"],
+ "correct": 0,
+ "answer_full": "To control its temperature – it's called multi-layer insulation",
+ "recap": "Satellites are wrapped in something that looks like crumpled gold foil.",
+ "explain": [
+  "In space, the side facing the Sun can heat up to around 150 degrees Celsius, while the shady side can drop to around minus 130 – sometimes at the same time.",
+  "The foil is multi-layer insulation: thin sheets of plastic film with an aluminium coating. In sunlight it reflects the heat away, in the shade it keeps the warmth inside.",
+  "The golden colour comes from the plastic film. It's usually no real gold at all."
+ ],
+ "video": "videos/q014-satellitefoil.mp4",
+ "clip_video": "videos/q014-clean.mp4",
+ "clip": [15.2, 27.2],
+ "followup": null
+}
