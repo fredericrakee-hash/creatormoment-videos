@@ -66,6 +66,8 @@ Posts are scheduled **directly (`draft: false`)** – no drafts, no manual appro
    - `mix.py` – ambience, risers/hits, alerts, quiz bed, narration placement (keep the times in sync with comp.py).
 4. `python3 comp.py stills 5,15,33` → look at them. Then `python3 comp.py v.mp4`, mux audio, compress
    (`-crf 24`, keeps it < 15 MB), save as `videos/qNNN-<topic>.mp4`.
+   If crf 24 comes out > 15 MB (grain + fine detail can push it to 100 MB), use the 2-pass helper:
+   `bash pipeline/enc2pass.sh v.mp4 audio/mix.wav videos/qNNN-<topic>.mp4 2200` (kbit/s; ~2000–2300 → 12–14 MB for 45–50 s).
 5. Also save a **clean** (graded, no overlays) 10–14 s action clip as `videos/qNNN-clean.mp4` (see q001 for how)
    – the solution video reuses it.
 6. Write `quizzes/qNNN/spec.json` (see q001) and add the entry to `quizzes.json`.

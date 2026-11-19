@@ -1,0 +1,19 @@
+{
+ "id": "q016",
+ "num": 16,
+ "topic": "Cars - black dots on the windshield (frit band)",
+ "question": ["WHAT IS THIS BLACK", "FRAME REALLY FOR?"],
+ "options": ["To hide the radio antenna", "To protect the glue from UV light", "To stop the glass from fogging up", "To make the glass stronger"],
+ "correct": 1,
+ "answer_full": "To protect the glue from UV light. It's called the frit",
+ "recap": "Almost every car windshield has a black band and a pattern of tiny black dots around its edge.",
+ "explain": [
+  "The windshield is held in place by a strong urethane glue, and the sun's UV rays would slowly break that glue down.",
+  "The black ceramic band, called the frit, blocks the UV, hides the glue, and gives it a rough surface to grip.",
+  "The dots shrink towards the middle for a smooth transition. That looks better, and it evens out the heat when the glass is bent at the factory."
+ ],
+ "video": "videos/q016-windshielddots.mp4",
+ "clip_video": "videos/q016-clean.mp4",
+ "clip": [7.5, 21.0],
+ "followup": null
+}

@@ -1,0 +1,19 @@
+{
+ "id": "q015",
+ "num": 15,
+ "topic": "Ships - how an icebreaker breaks ice",
+ "question": ["HOW DOES AN ICEBREAKER", "BREAK THE ICE?"],
+ "options": ["A sharp steel edge cuts through it", "Its hull heats the ice and melts it", "It crushes it with its own weight", "Strong vibrations shatter it"],
+ "correct": 2,
+ "answer_full": "It crushes it with its own weight",
+ "recap": "An icebreaker pushes through sea ice more than two meters thick, without any blade or saw.",
+ "explain": [
+  "The bow of an icebreaker is rounded and slopes gently backwards. So instead of cutting the ice, the ship slides up on top of it.",
+  "Then the enormous weight of the ship presses down, and the ice sheet breaks underneath it.",
+  "The smooth hull pushes the broken pieces aside, and leaves an open channel for other ships to follow."
+ ],
+ "video": "videos/q015-icebreaker.mp4",
+ "clip_video": "videos/q015-clean.mp4",
+ "clip": [7.4, 21.0],
+ "followup": null
+}
