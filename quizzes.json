@@ -313,8 +313,8 @@
   "video": "videos/q018-flares.mp4",
   "quiz_post": {
    "date": "2026-11-26T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "9190608193040828370",
+   "status": "scheduled"
   },
   "answer_video": "videos/q018-answer.mp4",
   "answer_post": {
