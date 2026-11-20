@@ -304,5 +304,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q018",
+  "num": 18,
+  "topic": "Military aviation - decoy flares (fool heat-seeking missiles)",
+  "correct": "A",
+  "video": "videos/q018-flares.mp4",
+  "quiz_post": {
+   "date": "2026-11-26T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q018-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-27T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
