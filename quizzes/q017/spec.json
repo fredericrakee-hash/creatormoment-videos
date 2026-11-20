@@ -1,0 +1,30 @@
+{
+ "id": "q017",
+ "num": 17,
+ "topic": "Everyday engineering - orange balls on power lines (aerial marker balls)",
+ "question": [
+  "WHAT ARE THESE",
+  "ORANGE BALLS FOR?"
+ ],
+ "options": [
+  "To keep the cables from swaying",
+  "To show the power is on",
+  "To cut down the humming noise",
+  "To warn low-flying aircraft"
+ ],
+ "correct": 3,
+ "answer_full": "To warn low-flying aircraft. They're called aerial marker balls",
+ "recap": "Giant orange, white and yellow balls hang on power cables that cross wide valleys, lakes and rivers.",
+ "explain": [
+  "Thin power cables are almost invisible from the air, especially when they stretch across a deep valley.",
+  "Helicopters and small planes flying low could hit them, so the bright balls make the cables easy to spot from far away.",
+  "In the US, the FAA recommends them on long crossings over canyons, lakes and rivers, about every 200 feet, with orange, white and yellow taking turns."
+ ],
+ "video": "videos/q017-markerballs.mp4",
+ "clip_video": "videos/q017-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}

@@ -1,0 +1,30 @@
+{
+ "id": "q018",
+ "num": 18,
+ "topic": "Military aviation - flares (decoys against heat-seeking missiles)",
+ "question": [
+  "WHY SHOOT OUT",
+  "THESE FIREBALLS?"
+ ],
+ "options": [
+  "To fool heat-seeking missiles",
+  "To signal the troops below",
+  "To burn off leftover fuel",
+  "To light up the ground for photos"
+ ],
+ "correct": 0,
+ "answer_full": "To fool heat-seeking missiles. They're called decoy flares",
+ "recap": "A military transport plane fires dozens of blinding fireballs out of its sides.",
+ "explain": [
+  "Heat-seeking missiles steer towards the hottest thing they can see, usually the hot engines of the plane.",
+  "Each flare burns far hotter than the engine exhaust, so the missile's seeker locks onto the flare instead and flies away from the plane.",
+  "That's why crews sometimes fire them even before a launch is spotted. Modern missiles are harder to fool, so flares are only one layer of protection."
+ ],
+ "video": "videos/q018-flares.mp4",
+ "clip_video": "videos/q018-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
