@@ -295,8 +295,8 @@
   "video": "videos/q017-markerballs.mp4",
   "quiz_post": {
    "date": "2026-11-25T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "-4345503187958939429",
+   "status": "scheduled"
   },
   "answer_video": "videos/q017-answer.mp4",
   "answer_post": {
