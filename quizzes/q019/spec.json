@@ -1,0 +1,30 @@
+{
+ "id": "q019",
+ "num": 19,
+ "topic": "Trucks - runaway truck ramp (gravel arrester bed)",
+ "question": [
+  "WHY DID HE STEER",
+  "INTO THE GRAVEL?"
+ ],
+ "options": [
+  "To cool down the hot tires",
+  "To let traffic behind him pass",
+  "His brakes gave out",
+  "To get around a crash ahead"
+ ],
+ "correct": 2,
+ "answer_full": "His brakes gave out. That gravel lane is a runaway truck ramp",
+ "recap": "A loaded semi truck, smoke pouring from its wheels, swerves off a mountain highway into a lane full of deep, loose gravel.",
+ "explain": [
+  "On a long, steep downhill, a heavy truck's brakes have to soak up a huge amount of energy. They can get so hot that they barely work anymore.",
+  "That's why mountain passes have runaway truck ramps: an escape lane filled with deep, loose, rounded gravel.",
+  "The wheels sink in and the gravel drags the truck to a stop. A tow truck pulls it out later, which is a lot better than a crash at the bottom of the hill."
+ ],
+ "video": "videos/q019-escaperamp.mp4",
+ "clip_video": "videos/q019-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}

@@ -1,0 +1,30 @@
+{
+ "id": "q020",
+ "num": 20,
+ "topic": "Trains - track ballast (crushed stone under the rails)",
+ "question": [
+  "WHY BUILD RAILWAYS",
+  "ON CRUSHED STONE?"
+ ],
+ "options": [
+  "To stop sparks from starting fires",
+  "To lock the track in place",
+  "To keep animals off the line",
+  "It's leftover rock from tunnels"
+ ],
+ "correct": 1,
+ "answer_full": "To lock the track in place. The stones are called track ballast",
+ "recap": "Most railway lines are built on a thick bed of sharp, crushed rock, and heavy freight trains thunder over it every day.",
+ "explain": [
+  "The sharp, angular stones wedge into each other and grip the concrete ties, so the track can't slide sideways. Smooth, round pebbles would just roll away.",
+  "They also spread the huge weight of the train over a wide area of ground.",
+  "And rain drains straight through the gaps, so the ground underneath stays firm."
+ ],
+ "video": "videos/q020-ballast.mp4",
+ "clip_video": "videos/q020-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
