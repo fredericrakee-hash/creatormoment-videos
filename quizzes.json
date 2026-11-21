@@ -322,5 +322,41 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q019",
+  "num": 19,
+  "topic": "Trucks - runaway truck ramp / gravel arrester bed (IN PROGRESS in scheduled session 016aD6GfamnFPokw7avmDaUe)",
+  "correct": "C",
+  "video": "videos/q019-escaperamp.mp4",
+  "quiz_post": {
+   "date": "2026-11-27T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q019-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-28T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q020",
+  "num": 20,
+  "topic": "Trains - track ballast (crushed stone under the rails) (IN PROGRESS in scheduled session 016aD6GfamnFPokw7avmDaUe)",
+  "correct": "B",
+  "video": "videos/q020-ballast.mp4",
+  "quiz_post": {
+   "date": "2026-11-27T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q020-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-28T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
