@@ -11,8 +11,12 @@ spec.json fields used:
   clip_video (path of the CLEAN action clip without text overlays, e.g. videos/q001-clean.mp4)
   clip     [start, end] seconds of clip_video to reuse (~10-14 s),
   followup (optional: {"question": "...", "options": [...]}  -> teaser for the next quiz)
+
+Visual explanation (owner request 2026-11-21): if quizzes/qNNN/explain.py exists next to spec.json, its
+SCENES (one per explain sentence, drawn with pipeline/explain_kit.py) are shown as animated diagrams
+under a green answer banner while each sentence is spoken.
 """
-import json, os, subprocess, sys, tempfile
+import json, os, subprocess, sys, tempfile, importlib.util
 import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from scipy.signal import resample_poly
@@ -81,6 +85,44 @@ def main(spec_path, out):
     bg = Image.blend(last, Image.new("RGB", (W, H), (6, 8, 14)), 0.62).convert("RGBA")
 
     exp_txt = {tl[f"e{i}"]: s for i, s in enumerate(spec["explain"])}
+    # optional animated explanation diagrams
+    SCENES = None
+    ep = os.path.join(os.path.dirname(os.path.abspath(spec_path)), "explain.py")
+    if os.path.exists(ep):
+        sys.path.insert(0, os.path.join(REPO, "pipeline"))
+        import explain_kit as KIT
+        m_ = importlib.util.spec_from_file_location("explain_q", ep); mod = importlib.util.module_from_spec(m_); m_.loader.exec_module(mod)
+        SCENES = mod.SCENES
+        e_start = [tl[f"e{i}"] for i in range(len(spec["explain"]))]
+        e_end = e_start[1:] + [tl.get("fu", tl["out"])]
+        xs0 = e_start[0] - 0.5
+        def kclip(frac): return clipframe(int(max(0, min(1, frac))*(nclip-1)))
+    PX, PY = 60, 400
+    def explain_frame(tt):
+        fr = bg.copy()
+        j = max([i for i, s0 in enumerate(e_start) if tt >= s0 - 0.5] or [0])
+        lt = tt - e_start[j]; dj = e_end[j] - e_start[j]
+        # answer banner
+        L_ = "ABCD"[spec["correct"]]
+        lay = Image.new("RGBA", (W, H), (0, 0, 0, 0)); ld = ImageDraw.Draw(lay)
+        ld.rounded_rectangle([60, 215, W-60, 345], radius=26, fill=(40, 190, 100, 235), outline=(120, 255, 170, 255), width=4)
+        ld.ellipse([84, 233, 178, 327], fill=(255, 255, 255, 240))
+        ld.text((131, 280), L_, font=F_LET, fill=(8, 10, 16), anchor="mm")
+        fb = spec["_fopt"]; ld.text((205, 280), spec["options"][spec["correct"]] + "  ✓", font=fb, fill=(255, 255, 255), anchor="lm")
+        ld.rounded_rectangle([PX, PY, PX+KIT.PW, PY+KIT.PH], radius=30, fill=(10, 13, 20, 200), outline=(255, 255, 255, 60), width=2)
+        fr.alpha_composite(lay)
+        k_ = KIT.Kit(kclip)
+        # crossfade between scenes
+        SCENES[j](k_, lt, dj)
+        pan = k_.render()
+        a_in = ease((tt - (e_start[j] - 0.5))/0.4) if j > 0 else 1.0
+        if a_in < 1: pan.putalpha(pan.split()[3].point(lambda v: int(v*a_in)))
+        fr.alpha_composite(pan, (PX, PY))
+        # step dots
+        for q in range(len(SCENES)):
+            cx = W//2 + (q - (len(SCENES)-1)/2)*34
+            ImageDraw.Draw(fr).ellipse([cx-7, PY+KIT.PH+22, cx+7, PY+KIT.PH+36], fill=(255, 200, 90) if q == j else (255, 255, 255, 90))
+        return fr
     def frame(i):
         tt = i/FPS
         if tt < card_start:
@@ -92,7 +134,36 @@ def main(spec_path, out):
             for j, ln in enumerate(wrap(d, spec["recap"], F_SUB, W-140)):
                 shadow_text(fr, (W//2, 1560 + j*64), ln, F_SUB, anchor="ma")
             fr = Image.blend(fr, bg, ease((tt-(card_start-0.6))/0.6))
+        elif SCENES is not None and tt >= xs0:
+            fr = explain_frame(tt)
+            if tt < xs0 + 0.5: fr = Image.blend(card_frame(tt), fr, ease((tt - xs0)/0.5))
+            cur = None
+            for ts, s in exp_txt.items():
+                if tt >= ts: cur = s
+            if "fu" in tl and tt >= tl["fu"]: cur = "BONUS: " + spec["followup"]["question"]
+            if "out" in tl and tt >= tl["out"]: cur = "Did you get it right? Follow for daily quizzes!"
+            if cur:
+                d = ImageDraw.Draw(fr)
+                for j, ln in enumerate(wrap(d, cur, F_SUB, W-140)):
+                    shadow_text(fr, (W//2, 1400 + j*62), ln, F_SUB, anchor="ma")
         else:
+            fr = card_frame(tt)
+            cur = None
+            for ts, s in exp_txt.items():
+                if tt >= ts: cur = s
+            if "fu" in tl and tt >= tl["fu"]: cur = "BONUS: " + spec["followup"]["question"]
+            if "out" in tl and tt >= tl["out"]: cur = "Did you get it right? Follow for daily quizzes!"
+            if cur:
+                d = ImageDraw.Draw(fr)
+                for j, ln in enumerate(wrap(d, cur, F_SUB, W-140)):
+                    shadow_text(fr, (W//2, 1360 + j*64), ln, F_SUB, anchor="ma")
+        d = ImageDraw.Draw(fr)
+        d.rounded_rectangle([56, 112, 290, 166], radius=12, fill=(0, 0, 0, 120), outline=(255, 255, 255, 90), width=2)
+        d.text((173, 139), f"ANSWER #{n}", font=F_TAG, fill=(255, 255, 255), anchor="mm")
+        return fr.convert("RGB")
+
+    def card_frame(tt):
+        if True:
             fr = bg.copy()
             shadow_text(fr, (W//2, 300), spec["question"][0], F_Q, anchor="ma")
             shadow_text(fr, (W//2, 385), spec["question"][1], F_Q, fill=(255, 200, 90), anchor="ma")
@@ -114,20 +185,13 @@ def main(spec_path, out):
                 ld.text((x0+78, y+75), "ABCD"[j], font=F_LET, fill=(8, 10, 16, int(255*fade)), anchor="mm")
                 ld.text((x0+170, y+75), opt + ("  ✓" if ok and rv > 0.5 else ""), font=spec["_fopt"], fill=(255, 255, 255, int(255*fade)), anchor="lm")
                 fr.alpha_composite(lay)
-            cur = None
-            for ts, s in exp_txt.items():
-                if tt >= ts: cur = s
-            if "fu" in tl and tt >= tl["fu"]: cur = "BONUS: " + spec["followup"]["question"]
-            if "out" in tl and tt >= tl["out"]: cur = "Did you get it right? Follow for daily quizzes!"
-            if cur:
-                d = ImageDraw.Draw(fr)
-                for j, ln in enumerate(wrap(d, cur, F_SUB, W-140)):
-                    shadow_text(fr, (W//2, 1360 + j*64), ln, F_SUB, anchor="ma")
-        d = ImageDraw.Draw(fr)
-        d.rounded_rectangle([56, 112, 290, 166], radius=12, fill=(0, 0, 0, 120), outline=(255, 255, 255, 90), width=2)
-        d.text((173, 139), f"ANSWER #{n}", font=F_TAG, fill=(255, 255, 255), anchor="mm")
-        return fr.convert("RGB")
+        return fr
 
+    card_frame(tl["drum"])
+    if os.environ.get("STILLS"):
+        for x in os.environ["STILLS"].split(","):
+            frame(int(float(x)*FPS)).save(f"{out}_{x}.png")
+        print({k_: round(v, 2) for k_, v in tl.items()}); return
     vtmp = f"{tmp}/v.mp4"
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
                           "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "veryfast", "-crf", "21",

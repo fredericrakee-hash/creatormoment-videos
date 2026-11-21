@@ -74,7 +74,16 @@ Posts are scheduled **directly (`draft: false`)** – no drafts, no manual appro
 7. git add/commit/push, then `createScheduledPost` with the raw URL (draft: false), REEL, isAiGenerated true.
 
 ## Solution video
-`python3 pipeline/answer.py quizzes/qNNN/spec.json videos/qNNN-answer.mp4` (~5 min), push, schedule it (draft: false).
+`python3 pipeline/answer.py quizzes/qNNN/spec.json videos/qNNN-answer.mp4` (~5–10 min), push, schedule it (draft: false).
+
+**Show the explanation visually (owner request 2026-11-21):** every solution video must SHOW what the narrator explains,
+not just subtitles. Write `quizzes/qNNN/explain.py` with `SCENES = [scene0, scene1, …]` (one animated diagram per
+sentence in `spec["explain"]`), drawn with `pipeline/explain_kit.py` (lines/arrows that draw on, labels, tags, check/cross,
+bars, waves, and `k.clip(frac)` to show a frame of the clean 3D clip with annotations). answer.py then shows a green answer
+banner + the diagram panel while each sentence is spoken. Check with
+`STILLS=16,20,25 python3 pipeline/answer.py quizzes/qNNN/spec.json /tmp/aNNN` (prints the timeline, saves PNGs) and LOOK
+at the stills before the full render. Examples: quizzes/q009–q011/explain.py. Clean, grown-up infographic style; no emoji.
+Write explain.py when building the quiz (you know the topic best then), or at the latest when building the solution.
 
 ## Story votes (account shortsfilm) – set up 2026-11-16
 - GitHub Action `.github/workflows/votes.yml` runs hourly, reads comments via the Instagram API (secret `IG_TOKEN`) and writes only counts to `votes/results/<media_id>.json` and `votes/results/latest.json` (field `winner`, `tie`).
