@@ -331,8 +331,8 @@
   "video": "videos/q019-escaperamp.mp4",
   "quiz_post": {
    "date": "2026-11-27T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "rendered"
+   "metricool_uuid": "8014985604506996512",
+   "status": "scheduled"
   },
   "answer_video": "videos/q019-answer.mp4",
   "answer_post": {
@@ -349,8 +349,8 @@
   "video": "videos/q020-ballast.mp4",
   "quiz_post": {
    "date": "2026-11-27T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "rendered"
+   "metricool_uuid": "-6827264417786608921",
+   "status": "scheduled"
   },
   "answer_video": "videos/q020-answer.mp4",
   "answer_post": {
