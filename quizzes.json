@@ -367,8 +367,8 @@
   "video": "videos/q021-loadline.mp4",
   "quiz_post": {
    "date": "2026-11-28T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "-5375429291048417292",
+   "status": "scheduled"
   },
   "answer_video": "videos/q021-answer.mp4",
   "answer_post": {
