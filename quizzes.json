@@ -211,8 +211,8 @@
   "answer_video": "videos/q012-answer.mp4",
   "answer_post": {
    "date": "2026-11-23T10:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "3813444470248456215",
+   "status": "scheduled"
   }
  },
  {
@@ -355,6 +355,42 @@
   "answer_video": "videos/q020-answer.mp4",
   "answer_post": {
    "date": "2026-11-28T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q021",
+  "num": 21,
+  "topic": "Ships - load line / Plimsoll mark (how deep a ship may be loaded)",
+  "correct": "D",
+  "video": "videos/q021-loadline.mp4",
+  "quiz_post": {
+   "date": "2026-11-28T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q021-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-29T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q022",
+  "num": 22,
+  "topic": "Space - ice falling off a rocket at liftoff (frost on super-cold oxygen tanks)",
+  "correct": "A",
+  "video": "videos/q022-rocketice.mp4",
+  "quiz_post": {
+   "date": "2026-11-29T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q022-answer.mp4",
+  "answer_post": {
+   "date": "2026-11-30T10:00:00+01:00",
    "metricool_uuid": null,
    "status": "pending"
   }
