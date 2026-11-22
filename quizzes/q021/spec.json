@@ -1,0 +1,30 @@
+{
+ "id": "q021",
+ "num": 21,
+ "topic": "Ships - load line / Plimsoll mark (how deep a ship may be loaded)",
+ "question": [
+  "WHAT IS THIS SYMBOL",
+  "ON THE HULL FOR?"
+ ],
+ "options": [
+  "It's the shipyard's logo",
+  "It shows where tugboats push",
+  "It marks the engine room",
+  "How low it may sit in the water"
+ ],
+ "correct": 3,
+ "answer_full": "It shows how low the ship may sit in the water. It's called the load line, or Plimsoll mark",
+ "recap": "Almost every cargo ship carries a circle crossed by a line, and next to it a ladder of short lines with letters.",
+ "explain": [
+  "It's a legal loading limit. When the ship is fully loaded, the water may reach the right line, but never go above it.",
+  "Fresh water is less dense than seawater, so the same ship floats deeper in a river. That's why there are extra lines for fresh water, and a lower one for stormy winter seas.",
+  "In the 1800s, overloaded ships sank with their crews. Samuel Plimsoll fought for this mark, and in 1876 British law made it compulsory."
+ ],
+ "video": "videos/q021-loadline.mp4",
+ "clip_video": "videos/q021-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
