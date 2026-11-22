@@ -1,0 +1,30 @@
+{
+ "id": "q022",
+ "num": 22,
+ "topic": "Space - ice falling off a rocket at liftoff (frost on uninsulated liquid-oxygen tanks)",
+ "question": [
+  "WHAT IS FALLING",
+  "OFF THE ROCKET?"
+ ],
+ "options": [
+  "Ice from the super-cold fuel",
+  "Paint peeling off in the heat",
+  "Foam from the launch pad water",
+  "Pieces of the heat shield"
+ ],
+ "correct": 0,
+ "answer_full": "Ice from the super-cold fuel. It forms on the rocket's liquid oxygen tank",
+ "recap": "At liftoff, big white chunks broke off a rocket and tumbled down past the flames.",
+ "explain": [
+  "Rockets like this one carry liquid oxygen colder than minus 183 degrees Celsius, that's minus 297 Fahrenheit, and the tank walls are not insulated.",
+  "Moisture in the warm, humid air freezes onto the ice-cold metal and builds up a crusty layer of frost and ice.",
+  "At liftoff, the shaking and the rushing air knock it loose, so it rains down in sheets. And the white wisps before launch? Oxygen boiling off and venting, chilling the air into fog."
+ ],
+ "video": "videos/q022-rocketice.mp4",
+ "clip_video": "videos/q022-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
