@@ -62,7 +62,7 @@ def scene2(k, t, d):
     k.text((480, 470), "FUEL BURN", 28, GREY, a=v, anchor="ma", bold=False)
     k.rect((150, 520, 150 + 660*v, 570), fill=RED, a=v)
     k.rect((150, 600, 150 + 627*v, 650), fill=GREEN, a=v)
-    k.text((830, 575), "UP TO ~5% LESS", 30, GREEN, a=seg(t, 2.0, 2.4), anchor="ra")
+    k.text((810, 665), "UP TO ~5% LESS", 30, GREEN, a=seg(t, 2.0, 2.4), anchor="ra")
     w = seg(t, d*0.6, d*0.6 + 0.4)
     k.text((480, 760), "BILLIONS OF LITRES SAVED", 36, GOLD, a=w, anchor="ma")
 
