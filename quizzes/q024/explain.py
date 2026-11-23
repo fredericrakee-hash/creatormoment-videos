@@ -54,7 +54,7 @@ def scene2(k, t, d):
     k.rect((660, 600, 860, 620), fill=(60, 62, 70), a=v)
     k.text((760, 200), "OLD METAL ROD", 28, GREY, a=v, anchor="ma")
     w = seg(t, d*0.65, d*0.65 + 0.4)
-    k.cross((620, 700), 22, RED, 6, a=w)
-    k.text((660, 680), "WHISTLES, SNAPS OFF", 26, RED, a=w)
+    k.cross((540, 700), 22, RED, 6, a=w)
+    k.text((575, 682), "WHISTLES, SNAPS OFF", 24, RED, a=w)
 
 SCENES = [scene0, scene1, scene2]
