@@ -2,8 +2,16 @@
  "id": "q014",
  "num": 14,
  "topic": "Space - satellite gold foil (multi-layer insulation)",
- "question": ["WHY ARE SATELLITES", "WRAPPED IN FOIL?"],
- "options": ["To control its temperature", "To block radio interference", "To be easier to spot from Earth", "To boost its solar power"],
+ "question": [
+  "WHY ARE SATELLITES",
+  "WRAPPED IN FOIL?"
+ ],
+ "options": [
+  "To control its temperature",
+  "To block radio interference",
+  "To be easier to spot from Earth",
+  "To boost its solar power"
+ ],
  "correct": 0,
  "answer_full": "To control its temperature – it's called multi-layer insulation",
  "recap": "Satellites are wrapped in something that looks like crumpled gold foil.",
@@ -14,6 +22,9 @@
  ],
  "video": "videos/q014-satellitefoil.mp4",
  "clip_video": "videos/q014-clean.mp4",
- "clip": [15.2, 27.2],
+ "clip": [
+  0.0,
+  12.0
+ ],
  "followup": null
 }

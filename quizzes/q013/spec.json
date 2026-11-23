@@ -2,8 +2,16 @@
  "id": "q013",
  "num": 13,
  "topic": "Trains - zigzag overhead contact wire (stagger)",
- "question": ["WHY DOES THE", "WIRE ZIGZAG?"],
- "options": ["To handle strong crosswinds", "So the wire can stretch in the heat", "To stop it from sparking", "So the contact strip wears evenly"],
+ "question": [
+  "WHY DOES THE",
+  "WIRE ZIGZAG?"
+ ],
+ "options": [
+  "To handle strong crosswinds",
+  "So the wire can stretch in the heat",
+  "To stop it from sparking",
+  "So the contact strip wears evenly"
+ ],
  "correct": 3,
  "answer_full": "So the contact strip wears evenly – engineers call the zigzag stagger",
  "recap": "The power wire above a high-speed line zigzags from side to side, even on a straight track.",
@@ -14,6 +22,9 @@
  ],
  "video": "videos/q013-zigzagwire.mp4",
  "clip_video": "videos/q013-clean.mp4",
- "clip": [16.3, 28.3],
+ "clip": [
+  0.0,
+  12.0
+ ],
  "followup": null
 }

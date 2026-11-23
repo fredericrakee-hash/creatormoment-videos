@@ -1,0 +1,19 @@
+{
+ "id": "q023",
+ "num": 23,
+ "topic": "Aviation - winglets (upturned wingtips)",
+ "question": ["WHY DO THE WINGTIPS", "BEND UPWARDS?"],
+ "options": ["To make the plane look modern", "To stop the wings from shaking", "To save fuel", "To protect the wing lights"],
+ "correct": 2,
+ "answer_full": "To save fuel – they are called winglets",
+ "recap": "Many airliners have wingtips that bend sharply upwards into a small fin.",
+ "explain": [
+  "The air under a wing has higher pressure than the air above it. At the tip, it curls around and spins into a big whirlwind, called a wingtip vortex.",
+  "That spinning air costs energy and holds the plane back. Engineers call it induced drag, and the engines have to burn extra fuel to make up for it.",
+  "The winglet weakens that vortex. That cuts fuel burn by up to around five percent, and across all airlines that adds up to billions of litres."
+ ],
+ "video": "videos/q023-winglets.mp4",
+ "clip_video": "videos/q023-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}

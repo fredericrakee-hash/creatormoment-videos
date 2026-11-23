@@ -1,0 +1,19 @@
+{
+ "id": "q024",
+ "num": 24,
+ "topic": "Cars - shark fin on the roof (antenna housing)",
+ "question": ["WHAT IS THIS", "FIN REALLY FOR?"],
+ "options": ["Better aerodynamics", "It hides the antennas", "It protects against lightning", "It cools the electronics"],
+ "correct": 1,
+ "answer_full": "It hides the antennas – it's called a shark fin antenna",
+ "recap": "Many new cars have a small fin shaped like a shark's at the back of the roof.",
+ "explain": [
+  "Under the plastic cover sit several small antennas, packed together on one circuit board.",
+  "They pick up FM and digital radio, GPS signals for the navigation, and mobile data for the car's connected services.",
+  "Radio waves pass right through the plastic. And unlike the old metal rod, the fin doesn't whistle in the wind or snap off in a car wash."
+ ],
+ "video": "videos/q024-sharkfin.mp4",
+ "clip_video": "videos/q024-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
