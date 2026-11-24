@@ -265,8 +265,8 @@
   "answer_video": "videos/q015-answer.mp4",
   "answer_post": {
    "date": "2026-11-25T10:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "6338654447112637588",
+   "status": "scheduled"
   }
  },
  {
