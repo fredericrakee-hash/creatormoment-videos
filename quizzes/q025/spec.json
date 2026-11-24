@@ -1,0 +1,30 @@
+{
+ "id": "q025",
+ "num": 25,
+ "topic": "Trains - locomotive sanders (sand on the rails for grip)",
+ "question": [
+  "WHAT IS IT BLASTING",
+  "ONTO THE RAILS?"
+ ],
+ "options": [
+  "Steam to dry the rails",
+  "Salt to melt the ice",
+  "Oil to protect the wheels",
+  "Sand, for more grip"
+ ],
+ "correct": 3,
+ "answer_full": "Sand, for more grip – the system is called a sander",
+ "recap": "A heavy freight locomotive couldn't pull away on wet rails, until small pipes blasted a brownish jet right in front of its wheels.",
+ "explain": [
+  "Wet rails and fallen leaves make the steel slippery. So the driving wheels just spin, instead of pulling the train.",
+  "So the locomotive uses compressed air to blow dry sand through small pipes, right between the wheel and the rail.",
+  "The hard grains get crushed under the wheel and give it something to bite on. That's why a modern locomotive carries hundreds of kilos of sand on board."
+ ],
+ "video": "videos/q025-sanders.mp4",
+ "clip_video": "videos/q025-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}

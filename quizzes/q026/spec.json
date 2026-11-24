@@ -1,0 +1,30 @@
+{
+ "id": "q026",
+ "num": 26,
+ "topic": "Aviation - white spiral on the jet engine spinner (warns ground crew)",
+ "question": [
+  "WHY IS THE SPIRAL",
+  "PAINTED ON?"
+ ],
+ "options": [
+  "To warn the ground crew",
+  "To scare birds away",
+  "To balance the fan",
+  "It's the airline's logo"
+ ],
+ "correct": 0,
+ "answer_full": "To warn the ground crew that the engine is running",
+ "recap": "Many jet engines have a white spiral painted on the cone in the middle of the fan.",
+ "explain": [
+  "A running fan turns so fast that its blades almost disappear. And with ear protection on, the ground crew can't always hear which engine is running.",
+  "The spiral makes it obvious. When it swirls, the engine is turning, and everyone stays out of the danger zone in front of the intake.",
+  "Some say the spiral also scares birds away. But that has never been proven."
+ ],
+ "video": "videos/q026-enginespiral.mp4",
+ "clip_video": "videos/q026-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
