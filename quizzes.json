@@ -439,8 +439,8 @@
   "video": "videos/q025-sanders.mp4",
   "quiz_post": {
    "date": "2026-12-01T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "-6213819640579863937",
+   "status": "scheduled"
   },
   "answer_video": "videos/q025-answer.mp4",
   "answer_post": {
