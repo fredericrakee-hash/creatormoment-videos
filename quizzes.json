@@ -457,8 +457,8 @@
   "video": "videos/q026-enginespiral.mp4",
   "quiz_post": {
    "date": "2026-12-01T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "1550996062399972187",
+   "status": "scheduled"
   },
   "answer_video": "videos/q026-answer.mp4",
   "answer_post": {
