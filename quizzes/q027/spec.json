@@ -1,0 +1,19 @@
+{
+ "id": "q027",
+ "num": 27,
+ "topic": "Military tech - submarine anechoic tiles (rubber tiles soak up sonar)",
+ "question": ["WHY IS IT COVERED", "IN RUBBER TILES?"],
+ "options": ["To protect it from ice", "To keep the crew warm", "To hide from sonar", "To slide faster through water"],
+ "correct": 2,
+ "answer_full": "To hide from sonar. They're called anechoic tiles",
+ "recap": "Many modern submarines are covered in thousands of black rubber tiles.",
+ "explain": [
+  "Warships and planes hunt submarines with sonar: they send out a ping of sound and listen for the echo bouncing back off the hull.",
+  "The rubber tiles are full of tiny air pockets that soak up those pings, so much less sound comes back. They also muffle the noise coming from inside the submarine.",
+  "That's why they're called anechoic tiles, which means without echo. And if the sea rips a few off, the shipyard simply glues on new ones."
+ ],
+ "video": "videos/q027-subtiles.mp4",
+ "clip_video": "videos/q027-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
