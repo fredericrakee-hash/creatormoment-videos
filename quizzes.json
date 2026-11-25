@@ -493,8 +493,8 @@
   "video": "videos/q028-runwaynumbers.mp4",
   "quiz_post": {
    "date": "2026-12-03T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "-8005479385233472503",
+   "status": "scheduled"
   },
   "answer_video": "videos/q028-answer.mp4",
   "answer_post": {
