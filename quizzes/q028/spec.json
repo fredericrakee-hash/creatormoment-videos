@@ -1,0 +1,19 @@
+{
+ "id": "q028",
+ "num": 28,
+ "topic": "Aviation - runway numbers (magnetic heading divided by ten)",
+ "question": ["WHAT DOES THE NUMBER", "ON THE RUNWAY MEAN?"],
+ "options": ["Its length in hundreds of meters", "Its compass direction", "The order it was built in", "Its distance from the terminal"],
+ "correct": 1,
+ "answer_full": "Its compass direction, rounded and divided by ten",
+ "recap": "Every runway has a giant number painted on each end, like twenty-seven on one side and zero-nine on the other.",
+ "explain": [
+  "The number is the runway's compass heading, divided by ten and rounded. Twenty-seven means about two hundred seventy degrees, so the planes are heading west.",
+  "The other end of the same runway points the opposite way, exactly one hundred eighty degrees around. That's ninety degrees, so it says zero-nine: east.",
+  "The numbers follow the magnetic compass, and Earth's magnetic field slowly drifts. When it drifts far enough, the airport has to paint new numbers."
+ ],
+ "video": "videos/q028-runwaynumbers.mp4",
+ "clip_video": "videos/q028-clean.mp4",
+ "clip": [0.0, 12.0],
+ "followup": null
+}
