@@ -1,0 +1,30 @@
+{
+ "id": "q029",
+ "num": 29,
+ "topic": "Space - Soyuz soft-landing engines (flash right before touchdown)",
+ "question": [
+  "WHAT IS THAT FLASH",
+  "BEFORE TOUCHDOWN?"
+ ],
+ "options": [
+  "The heat shield blowing off",
+  "The parachute being cut loose",
+  "Its batteries overheating",
+  "Rockets cushioning the landing"
+ ],
+ "correct": 3,
+ "answer_full": "Rockets cushioning the landing. They're the capsule's soft-landing engines",
+ "recap": "A space capsule drifting down under a giant parachute made a blinding flash, a split second before it hit the ground.",
+ "explain": [
+  "Even under its huge main parachute, the Soyuz capsule still falls at about seven meters per second. Hitting the ground at that speed would be a hard jolt for the crew.",
+  "So on the way down, the capsule drops its bottom heat shield and uncovers six small solid-fuel rocket engines. A gamma-ray altimeter keeps measuring the height above the ground.",
+  "About one meter above the ground, the engines fire for a split second and slow the capsule to around one and a half meters per second. That's the flash you saw."
+ ],
+ "video": "videos/q029-soyuzlanding.mp4",
+ "clip_video": "videos/q029-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}

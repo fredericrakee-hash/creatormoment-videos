@@ -506,13 +506,13 @@
  {
   "id": "q029",
   "num": 29,
-  "topic": "Space - Soyuz soft-landing engines (IN PROGRESS)",
-  "correct": null,
+  "topic": "Space - Soyuz soft-landing engines (flash right before touchdown)",
+  "correct": "D",
   "video": "videos/q029-soyuzlanding.mp4",
   "quiz_post": {
    "date": "2026-12-03T18:00:00+01:00",
    "metricool_uuid": null,
-   "status": "in_progress"
+   "status": "pending"
   },
   "answer_video": "videos/q029-answer.mp4",
   "answer_post": {
