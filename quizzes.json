@@ -504,6 +504,24 @@
   }
  },
  {
+  "id": "q029",
+  "num": 29,
+  "topic": "Space - Soyuz soft-landing engines (IN PROGRESS)",
+  "correct": null,
+  "video": "videos/q029-soyuzlanding.mp4",
+  "quiz_post": {
+   "date": "2026-12-03T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q029-answer.mp4",
+  "answer_post": {
+   "date": "2026-12-04T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
   "id": "q030",
   "num": 30,
   "topic": "Trains - gas-fired switch heaters (flames on the tracks in winter)",
