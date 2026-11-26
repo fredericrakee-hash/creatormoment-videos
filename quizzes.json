@@ -511,8 +511,8 @@
   "video": "videos/q029-soyuzlanding.mp4",
   "quiz_post": {
    "date": "2026-12-03T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "-3187048648283893953",
+   "status": "scheduled"
   },
   "answer_video": "videos/q029-answer.mp4",
   "answer_post": {
