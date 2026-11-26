@@ -502,5 +502,23 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q030",
+  "num": 30,
+  "topic": "Trains - gas-fired switch heaters (flames on the tracks in winter)",
+  "correct": "A",
+  "video": "videos/q030-switchheaters.mp4",
+  "quiz_post": {
+   "date": "2026-12-04T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  },
+  "answer_video": "videos/q030-answer.mp4",
+  "answer_post": {
+   "date": "2026-12-05T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]

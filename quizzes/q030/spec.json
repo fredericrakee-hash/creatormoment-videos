@@ -1,0 +1,30 @@
+{
+ "id": "q030",
+ "num": 30,
+ "topic": "Trains - gas-fired switch heaters (flames on the tracks in winter)",
+ "question": [
+  "WHY ARE THERE FLAMES",
+  "ON THE TRACKS?"
+ ],
+ "options": [
+  "To keep the switches from freezing",
+  "To warn cars at the crossing",
+  "To burn off spilled diesel",
+  "To keep track workers warm"
+ ],
+ "correct": 0,
+ "answer_full": "To keep the switches from freezing. They're gas-fired switch heaters",
+ "recap": "In a snowy Chicago winter, long rows of flames burned along the railway tracks, right where one track splits into two.",
+ "explain": [
+  "Where one track splits into two, there's a switch. Its movable rails, called points, slide sideways to send each train onto the right track.",
+  "Snow and ice can jam those points, so they can't close tightly against the rail. Then, for safety, the signals stop the trains.",
+  "So the railway runs gas burners right next to the switches to melt the snow and ice. The tracks themselves aren't on fire, and newer switches often use electric heaters instead."
+ ],
+ "video": "videos/q030-switchheaters.mp4",
+ "clip_video": "videos/q030-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
