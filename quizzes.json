@@ -511,8 +511,8 @@
   "video": "videos/q030-switchheaters.mp4",
   "quiz_post": {
    "date": "2026-12-04T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "-4655880412114104350",
+   "status": "scheduled"
   },
   "answer_video": "videos/q030-answer.mp4",
   "answer_post": {
