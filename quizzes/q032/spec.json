@@ -1,0 +1,30 @@
+{
+ "id": "q032",
+ "num": 32,
+ "topic": "Ships - red hull bottom (anti-fouling paint keeps barnacles off)",
+ "question": [
+  "WHY IS THE BOTTOM",
+  "PAINTED RED?"
+ ],
+ "options": [
+  "Red paint is the cheapest",
+  "To keep barnacles off it",
+  "So divers can find the hull",
+  "To hide rust stains"
+ ],
+ "correct": 1,
+ "answer_full": "To keep barnacles off it. It's called anti-fouling paint",
+ "recap": "In a dry dock, a giant cargo ship stood on dry land, and the whole part that's normally underwater was painted red.",
+ "explain": [
+  "Underwater, barnacles, mussels and seaweed love to grow on a ship's hull. They make it rough, so the ship gets slower and burns more fuel.",
+  "So the hull gets a special paint that slowly releases copper, and that stops these creatures from settling on it.",
+  "And the red? Copper paints were traditionally red. Today this paint comes in other colors too, but most ships keep the classic red."
+ ],
+ "video": "videos/q032-redhull.mp4",
+ "clip_video": "videos/q032-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
