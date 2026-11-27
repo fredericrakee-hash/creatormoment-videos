@@ -565,8 +565,8 @@
   "video": "videos/q032-redhull.mp4",
   "quiz_post": {
    "date": "2026-12-05T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "-5121005944708644542",
+   "status": "scheduled"
   },
   "answer_video": "videos/q032-answer.mp4",
   "answer_post": {
