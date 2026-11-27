@@ -547,8 +547,8 @@
   "video": "videos/q031-massdamper.mp4",
   "quiz_post": {
    "date": "2026-12-05T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "-4202015514554121115",
+   "status": "scheduled"
   },
   "answer_video": "videos/q031-answer.mp4",
   "answer_post": {
