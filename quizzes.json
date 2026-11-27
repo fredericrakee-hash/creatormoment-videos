@@ -538,5 +538,41 @@
    "metricool_uuid": null,
    "status": "pending"
   }
+ },
+ {
+  "id": "q031",
+  "num": 31,
+  "topic": "Everyday engineering - Taipei 101 tuned mass damper (giant golden ball)",
+  "correct": "C",
+  "video": "videos/q031-massdamper.mp4",
+  "quiz_post": {
+   "date": "2026-12-05T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q031-answer.mp4",
+  "answer_post": {
+   "date": "2026-12-06T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q032",
+  "num": 32,
+  "topic": "Ships - red hull bottom (anti-fouling paint keeps barnacles off)",
+  "correct": "B",
+  "video": "videos/q032-redhull.mp4",
+  "quiz_post": {
+   "date": "2026-12-05T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q032-answer.mp4",
+  "answer_post": {
+   "date": "2026-12-06T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
  }
 ]
