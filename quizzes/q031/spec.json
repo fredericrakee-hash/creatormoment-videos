@@ -1,0 +1,30 @@
+{
+ "id": "q031",
+ "num": 31,
+ "topic": "Everyday engineering - Taipei 101 tuned mass damper (giant golden ball)",
+ "question": [
+  "WHY IS THIS GIANT BALL",
+  "INSIDE THE BUILDING?"
+ ],
+ "options": [
+  "It's a giant art sculpture",
+  "It's an emergency water tank",
+  "To cancel out the swaying",
+  "It stores power for the elevators"
+ ],
+ "correct": 2,
+ "answer_full": "To cancel out the swaying. It's a tuned mass damper",
+ "recap": "During a typhoon in Taiwan, a giant golden ball hanging high up inside the Taipei 101 skyscraper started to swing.",
+ "explain": [
+  "In strong winds, even a giant skyscraper sways a little. High up at the top, people can feel that movement.",
+  "The ball hangs like a huge pendulum. When the building moves one way, the six hundred and sixty ton ball lags behind and pulls the other way.",
+  "Hydraulic dampers underneath turn that motion into heat, so the swaying dies down much faster. Engineers call it a tuned mass damper."
+ ],
+ "video": "videos/q031-massdamper.mp4",
+ "clip_video": "videos/q031-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
