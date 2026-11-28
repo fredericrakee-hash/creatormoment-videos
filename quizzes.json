@@ -583,8 +583,8 @@
   "video": "videos/q033-boreevacuator.mp4",
   "quiz_post": {
    "date": "2026-12-06T18:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "5539009212394131080",
+   "status": "scheduled"
   },
   "answer_video": "videos/q033-answer.mp4",
   "answer_post": {
@@ -601,8 +601,8 @@
   "video": "videos/q034-morsetracks.mp4",
   "quiz_post": {
    "date": "2026-12-07T14:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "in_progress"
+   "metricool_uuid": "1758107318900573402",
+   "status": "scheduled"
   },
   "answer_video": "videos/q034-answer.mp4",
   "answer_post": {
