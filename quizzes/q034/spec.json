@@ -1,0 +1,30 @@
+{
+ "id": "q034",
+ "num": 34,
+ "topic": "Space - Curiosity rover wheel tracks (Morse code for JPL, used to measure how far it drove)",
+ "question": [
+  "WHAT IS THIS PATTERN",
+  "IN THE TRACKS?"
+ ],
+ "options": [
+  "Morse code for 'JPL'",
+  "The rover's serial number",
+  "Air vents to cool the wheels",
+  "Spikes for climbing dunes"
+ ],
+ "correct": 0,
+ "answer_full": "Morse code for J P L",
+ "recap": "On Mars, NASA's Curiosity rover left tracks with a strange pattern of short and long marks.",
+ "explain": [
+  "Curiosity's wheels have small holes cut into them, and their imprints spell J P L in Morse code. That's the Jet Propulsion Laboratory, the NASA lab that built the rover.",
+  "On loose sand, the wheels can slip, so the rover may not have driven as far as its wheels have turned.",
+  "So its cameras photograph the pattern and measure how far it really moved. On smooth, featureless sand, the marks are an easy reference point."
+ ],
+ "video": "videos/q034-morsetracks.mp4",
+ "clip_video": "videos/q034-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}

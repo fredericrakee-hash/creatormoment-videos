@@ -1,0 +1,30 @@
+{
+ "id": "q033",
+ "num": 33,
+ "topic": "Military tech - bore evacuator (bulge on a tank gun barrel pulls the fumes out)",
+ "question": [
+  "WHAT DOES THIS BULGE",
+  "ON THE BARREL DO?"
+ ],
+ "options": [
+  "It cools the hot barrel",
+  "It's a silencer for the shot",
+  "It's extra armor for the gun",
+  "It sucks out the toxic fumes"
+ ],
+ "correct": 3,
+ "answer_full": "It sucks out the toxic fumes. It's called a bore evacuator, or fume extractor",
+ "recap": "A tank fired its main gun, and halfway along the barrel sat a thick bulge, with a ring of small holes hidden inside.",
+ "explain": [
+  "When the shell races past those holes, hot gas from the shot rushes into the sleeve and fills it under pressure.",
+  "Once the shell has left the barrel, that gas jets back out through holes angled towards the muzzle, and drags the leftover fumes out of the front of the gun.",
+  "So when the crew opens the breech to load the next round, the turret doesn't fill up with poisonous fumes."
+ ],
+ "video": "videos/q033-boreevacuator.mp4",
+ "clip_video": "videos/q033-clean.mp4",
+ "clip": [
+  0.0,
+  12.0
+ ],
+ "followup": null
+}
