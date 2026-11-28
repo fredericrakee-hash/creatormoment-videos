@@ -373,8 +373,8 @@
   "answer_video": "videos/q021-answer.mp4",
   "answer_post": {
    "date": "2026-11-29T10:00:00+01:00",
-   "metricool_uuid": null,
-   "status": "pending"
+   "metricool_uuid": "-3774847033136034811",
+   "status": "scheduled"
   }
  },
  {
@@ -571,6 +571,42 @@
   "answer_video": "videos/q032-answer.mp4",
   "answer_post": {
    "date": "2026-12-06T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q033",
+  "num": 33,
+  "topic": "Military tech - bore evacuator (bulge on a tank gun barrel pulls the fumes out)",
+  "correct": "D",
+  "video": "videos/q033-boreevacuator.mp4",
+  "quiz_post": {
+   "date": "2026-12-06T18:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q033-answer.mp4",
+  "answer_post": {
+   "date": "2026-12-07T10:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "pending"
+  }
+ },
+ {
+  "id": "q034",
+  "num": 34,
+  "topic": "Space - Curiosity rover wheel tracks (Morse code for JPL, used to measure how far it drove)",
+  "correct": "A",
+  "video": "videos/q034-morsetracks.mp4",
+  "quiz_post": {
+   "date": "2026-12-07T14:00:00+01:00",
+   "metricool_uuid": null,
+   "status": "in_progress"
+  },
+  "answer_video": "videos/q034-answer.mp4",
+  "answer_post": {
+   "date": "2026-12-08T10:00:00+01:00",
    "metricool_uuid": null,
    "status": "pending"
   }
